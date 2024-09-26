@@ -1,0 +1,80 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.destinations {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.destination {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: left;
+    max-width: 300px;
+}
+
+.destination img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.destination h3 {
+    margin-top: 10px;
+}
+
+.destination p {
+    margin-top: 20px;
+    color: #d81818;
+}
+
+
+.destination {
+    display: inline-block; /* Permet à chaque destination d'être sur la même ligne */
+    width: 25%; /* Vous pouvez ajuster cette valeur en fonction de la disposition souhaitée */
+    vertical-align: top; /* Aligne les éléments en haut de leur ligne */
+    font-size: initial; /* Réinitialise la taille de la police à la taille par défaut */
+    margin: 10px; /* Ajoute un espace entre les destinations */
+    text-align: center; /* Centre le contenu dans chaque destination */
+}
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
